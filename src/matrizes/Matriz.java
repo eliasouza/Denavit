@@ -10,7 +10,7 @@ public class Matriz {
     private static final int T = 4;  
     private static int i, l, c, k;
     
-    /*Inicializa as matrizes; Essa função recebe os parâmetros de D&H e 
+    /*Inicializa as matrizes; Essa função recebe os parâmetros de DH e 
     inicializa as matrizes*/
     public static ArrayList<double[][]> gerarMatriz(double[] q, 
             double[] a, double d[], double[] alpha, int n){
