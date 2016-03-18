@@ -12,13 +12,13 @@ public class Planar {
     private static int i;
     
     public static void initPlanar() {     
-        //Parâmetros de D&H:
+        //Parâmetros de DH:
         double[] a      =  new double[n];
         double[] d      =  new double[n];
         double[] alpha  =  new double[n];
         double[] q     =  new double[n];
         
-        //Inicializar parâmetros de D&H:
+        //Inicializar parâmetros de DH:
         a[0]     = 0.5; a[1]     = 0.5; a[2]        = 0.5;
         d[0]     = 0;   d[1]     = 0; d[2]          = 0;
         alpha[0] = 0; alpha[1]   = 0; alpha[2]      = 0;         
