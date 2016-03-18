@@ -18,7 +18,7 @@ public class Antropomorfico {
     private static int i;
     
     public static void initAntropormorfico() {     
-        //Parâmetros de D&H:
+        //Parâmetros de DH:
         double[] a      =  new double[n];
         double[] d      =  new double[n];
         double[] alpha  =  new double[n];
@@ -26,7 +26,7 @@ public class Antropomorfico {
         double[] qb     =  new double[n];
         double[] qc     =  new double[n];
         
-        //Inicializar parâmetros de D&H:
+        //Inicializar parâmetros de DH:
         a[0]=0; a[1]=l2; a[2]=0; a[3]=0; a[4]=0; a[5]=0;
         d[0]=l0+l1; d[1]=0; d[2]=0; d[3]=l3+l4; d[4]=0; d[5]=l5+l6;
         alpha[0]=Math.PI/2; alpha[1]=0; alpha[2]=Math.PI/2; 
