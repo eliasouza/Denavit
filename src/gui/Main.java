@@ -11,7 +11,6 @@ import robos.Planar;
 public class Main {
     public static void main(String[] args) {
         Planar.initPlanar();
-        System.out.println("\nROBÔ ANTROPORMÓRFICO");
         Antropomorfico.initAntropormorfico();
     }
 }
